@@ -176,17 +176,10 @@ i {
 }
 .bottom-left {
   position: absolute;
-  bottom: 170px;
+  bottom: 90px;
+  left: 270px;
+  justify-content: space-between;
   color: #fb700c;
-}
-.bottom-left1 {
-  left: "20px";
-}
-.bottom-left2 {
-  left: "60px";
-}
-.bottom-left3 {
-  left: "100px";
 }
 .star {
   position: absolute;
