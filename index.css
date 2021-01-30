@@ -183,12 +183,14 @@ span{
 @media only screen and (max-width:500px)
 {
     .title-box{
+        box-shadow: inset -10px -10px 10px rgba(49, 46, 46, 0.25), inset 15px 15px 15px rgba(19, 18, 18, 0.57);
         left: 30%;
         top: 20px;
         transform: scale(0.9);
     }
     .form-container
 {
+    box-shadow: -15px -15px 15px rgba(39, 39, 39, 0.25), 15px 15px 15px rgba(19, 18, 18, 0.57);
     top: 25%;
     left: 15%;
     bottom: 20%;
@@ -200,7 +202,10 @@ span{
     margin-top: -30px;
     margin-bottom: 80px;
 }
+.form-container button{
+    box-shadow: -15px -15px 15px rgba(39, 39, 39, 0.25), 15px 15px 15px rgba(19, 18, 18, 0.57);
 
+}
 .color-btn
 {
     font-size: 20px;
@@ -212,10 +217,11 @@ span{
     bottom: 10%;
 
     background: var(--dark);
-    box-shadow: -10px -10px 20px rgba(39, 39, 39, 0.25), 
-                 10px 10px 20px rgba(19, 18, 18, 0.57);
+    box-shadow: -10px -10px 10px rgba(39, 39, 39, 0.25), 
+                 10px 10px 10px rgba(19, 18, 18, 0.57);
     border-radius: 50px;
     transition:all 0.3s ease;
 
 }
+
 }
