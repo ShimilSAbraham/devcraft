@@ -1,0 +1,88 @@
+:root{
+    --dark: #181818;
+    --color: #FB700C;
+}
+/*  orange:  #FB700C;  
+    green: #0CFB4F
+    blue:#0CA5FB
+    purple:#830CFB
+    yellow:#FBE30C */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+body{
+    background: var(--dark);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-box{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 20px;
+    top: 20px;
+
+    background: var(--dark);
+    box-shadow: inset -10px -10px 20px rgba(49, 46, 46, 0.25), inset 15px 15px 30px rgba(19, 18, 18, 0.57);
+    border-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title{
+    position: absolute;
+    top: 20px;
+    color: var(--color);
+    text-align: center;
+    font-size: 30px;
+}
+
+.img{
+    position: absolute;
+
+    top: 50px;
+    left: auto;
+    width: 80px;
+    height: 80px;
+    background-image: url(img/learning.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    filter: invert(51%) sepia(40%) saturate(3868%) hue-rotate(355deg) brightness(99%) contrast(98%);
+
+}
+
+.color-btn
+{
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color);
+    font-size: 25px;
+
+    left: 78.91%;
+    right: 2.86%;
+    top: 83.7%;
+    bottom: 7.04%;
+
+    background: var(--dark);
+    box-shadow: -10px -10px 20px rgba(39, 39, 39, 0.25), 
+                 10px 10px 20px rgba(19, 18, 18, 0.57);
+    border-radius: 50px;
+    transition:all 0.3s ease;
+
+}
+
+.color-btn:active {
+    box-shadow: -15px -15px 60px rgba(39, 39, 39, 0.25),
+    15px 15px 30px rgba(19, 18, 18, 0.57),
+    inset -2px -2px 4px rgba(54, 53, 53, 0.57),
+    inset 2px 2px 4px rgba(7, 7, 7, 0.719);
+    
+    transition:all 0.3s ease;
+}
+
+.color-btn:focus { outline: none; }
