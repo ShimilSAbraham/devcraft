@@ -223,5 +223,8 @@ span{
     transition:all 0.3s ease;
 
 }
+	span{
+		color:white;
+	}
 
 }
