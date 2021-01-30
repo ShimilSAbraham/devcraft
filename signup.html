@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="signup.css">
     <title>Login Page</title>
 </head>
 <body>
@@ -13,21 +13,19 @@
     </div>
     <div class="form-container">
         <form action="#">
-            <h1>Login</h1>
+            <h1>Sign Up</h1>
             <br>
             <br>
-            <input id="name_hos" class="name_hos" type="text" placeholder="Enter Hospital Id">
+            <input id="name_hos" class="name_hos" type="text" placeholder="Enter your name">
+            <input class="name_hos" type="text" placeholder="Enter your email-id">
             <input id="pass_hos" type="password" placeholder="Enter Password" value="" required>      
-            <button onclick="Login()" type="submit" value="Login"><a href="homepage.html">Sign in</a></button>
-            <span>Forgot Password? <a href="#">Click here</a></span>
-            <span>Don't have an account?</span>
-
-            <button class="signup" type="submit" value="Login"><a href="signup.html">Sign up</a></button>
+            <input type="password" placeholder="Re-enter Password" value="" required>      
+            <button onclick="Login()" type="submit" value="Login"><a href="homepage.html">Sign Up</a></button>
         </form>
     </div>
     <div class="color-btn">Change Color?</div>
 
-    <script src="index.js">
+    <script src="signup.js">
     
         </script>
 </body>

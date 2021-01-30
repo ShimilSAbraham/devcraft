@@ -59,9 +59,13 @@ body{
     width: 100px;
     height: 500px;
 
-background: #181818;
-box-shadow: inset -13px -13px 26px rgba(49, 46, 46, 0.25), inset 10px 18px 20px rgba(19, 18, 18, 0.57);
-border-radius: 75px;
+    background: #181818;
+    box-shadow: inset -13px -13px 26px rgba(49, 46, 46, 0.25), inset 10px 18px 20px rgba(19, 18, 18, 0.57);
+    border-radius: 75px;
+
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
