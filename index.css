@@ -16,14 +16,14 @@ body{
 
 .title-box{
     position: absolute;
-    width: 200px;
-    height: 150px;
-    left: 20px;
-    top: 20px;
+    width: 12%;
+    height: 20%;
+    left: 2vh;
+    top: 2vh;
 
     background: var(--dark);
     box-shadow: inset -10px -10px 20px rgba(49, 46, 46, 0.25), inset 15px 15px 30px rgba(19, 18, 18, 0.57);
-    border-radius: 40px;
+    border-radius: 30px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -31,7 +31,7 @@ body{
 
 .title{
     position: absolute;
-    top: 20px;
+    top: 2vh;
     color: var(--color);
     text-align: center;
     font-size: 30px;
@@ -39,14 +39,13 @@ body{
 
 .img{
     position: absolute;
-
-    top: 50px;
+    top: 7vh;
     left: auto;
     width: 80px;
     height: 80px;
     background-image: url(img/learning.png);
     background-position: center;
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
     filter: invert(51%) sepia(40%) saturate(3868%) hue-rotate(355deg) brightness(99%) contrast(98%);
 
@@ -58,14 +57,14 @@ body{
 .form-container
 {
     position: absolute;
-    left: 35%;
-    right: 32%;
-    top: 5.37%;
-    bottom: 6.67%;
+    left: 35vw;
+    top: 5vh;
+    width: 30%;
+    height: 90%;
 
     background: #181818;
     box-shadow: -10px -10px 20px rgba(39, 39, 39, 0.25), 10px 10px 20px rgba(19, 18, 18, 0.57);
-    border-radius: 50px;
+    border-radius: 30px;
 
 }
 .form-container h1{
@@ -76,6 +75,22 @@ body{
     color: var(--color);
 }
 
+.form-container i{
+    color: var(--color);
+}
+.fa-user{
+    position: absolute;
+    left: 3vw;
+    top: 31vh;
+    transform: scale(1.2);
+}
+
+.fa-lock{
+    position: absolute;
+    left: 3vw;
+    top: 41vh;
+    transform: scale(1.2);
+}
 
 
 .form-container form{
@@ -94,7 +109,8 @@ input {
     font-size: 15px;
 	border: none;
 	padding: 12px 15px;
-	margin: 10px 0;
+    margin: 10px 0;
+    margin-left: 5px;
     width: 70%;
     background:var(--dark);
     box-shadow: inset -10px -10px 20px rgba(44, 40, 40, 0.25), inset 10px 10px 20px rgba(19, 18, 18, 0.57);
@@ -157,7 +173,7 @@ span{
     justify-content: center;
     text-align: center;
     color: var(--color);
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
 
     left: 78.91%;

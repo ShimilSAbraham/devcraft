@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Login Page</title>
 </head>
@@ -16,8 +17,10 @@
             <h1>Login</h1>
             <br>
             <br>
-            <input id="name_hos" class="name_hos" type="text" placeholder="Enter Hospital Id">
-            <input id="pass_hos" type="password" placeholder="Enter Password" value="" required>      
+            <i class="far fa-user"></i>
+            <input id="name" class="user" type="text" placeholder="Enter your email-id">
+            <i class="fas fa-lock"></i>
+            <input id="pass" type="password" placeholder="Enter your password" value="" required>      
             <button onclick="Login()" type="submit" value="Login"><a href="homepage.html">Sign in</a></button>
             <span>Forgot Password? <a href="#">Click here</a></span>
             <span>Don't have an account?</span>
