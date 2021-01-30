@@ -52,6 +52,92 @@ body{
 
 }
 
+.form-container
+{
+    position: absolute;
+    left: 35%;
+    right: 32%;
+    top: 5.37%;
+    bottom: 6.67%;
+
+    background: #181818;
+    box-shadow: -10px -10px 20px rgba(39, 39, 39, 0.25), 10px 10px 20px rgba(19, 18, 18, 0.57);
+    border-radius: 50px;
+
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.form-container h1{
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 100px;
+    color: var(--color);
+}
+
+input {
+    font-size: 15px;
+	border: none;
+	padding: 12px 15px;
+	margin: 10px 0;
+    width: 70%;
+    background:var(--dark);
+    box-shadow: inset -10px -10px 20px rgba(44, 40, 40, 0.25), inset 10px 10px 20px rgba(19, 18, 18, 0.57);
+    border-radius: 75px;
+    color: var(--color);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+input:active{
+    
+    color: var(--color);
+    }
+
+.form-container button {
+    box-shadow: -15px -15px 30px rgba(39, 39, 39, 0.25), 15px 15px 30px rgba(19, 18, 18, 0.57);
+    border-radius: 50px;
+    border: 1px solid var(--dark);
+    background-color: var(--dark);
+    padding: 15px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+form-container button:focus {
+    outline: none;
+}
+
+a
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    color:var(--color);
+    font-size: 15px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+span{
+    margin-top: 20px;
+    font-weight: normal;
+}
+
 .color-btn
 {
 
@@ -61,7 +147,8 @@ body{
     justify-content: center;
     text-align: center;
     color: var(--color);
-    font-size: 25px;
+    font-size: 30px;
+    cursor: pointer;
 
     left: 78.91%;
     right: 2.86%;
