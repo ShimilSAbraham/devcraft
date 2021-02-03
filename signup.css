@@ -137,6 +137,12 @@
   
   form-container button:focus {
     outline: none;
+    box-shadow: -15px -15px 60px rgba(39, 39, 39, 0.25),
+    15px 15px 30px rgba(19, 18, 18, 0.57),
+    inset -2px -2px 4px rgba(54, 53, 53, 0.57),
+    inset 2px 2px 4px rgba(7, 7, 7, 0.719);
+
+    transition: all 0.3s ease;
   }
   
   a {
