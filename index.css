@@ -56,7 +56,7 @@ body {
 .form-container {
   position: absolute;
   left: 35vw;
-  top: 5vh;
+  top: 10vh;
   width: 30%;
   min-width: 320px;
   /* height: 90%; */
@@ -113,6 +113,8 @@ input {
 
 input:focus {
   outline: none;
+  box-shadow: 3px 3px 10px var(--color),-3px -3px 10px var(--color);
+
 }
 
 input:active {

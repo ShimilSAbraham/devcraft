@@ -15,16 +15,4 @@ document.querySelector(".color-btn").addEventListener("click", () => {
   i += 1;
 });
 
-let arflag = false;
 
-let ar = document.querySelector(".fa-arrow-circle-right");
-
-ar.addEventListener("click", () => {
-  if (!arflag) {
-    ar.style.transform = "rotate(180deg), scale(2)";
-    arflag = true;
-  } else {
-    ar.style.transform = "rotate(0deg), scale(2)";
-    arflag = false;
-  }
-});

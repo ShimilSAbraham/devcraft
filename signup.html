@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="signup.css">
-    <title>Login Page</title>
+    <title>signUp Page</title>
 </head>
 <body>
     <div class="title-box">
@@ -14,14 +18,52 @@
     <div class="form-container">
         <form action="#">
             <h1>Sign Up</h1>
-            <br>
-            <br>
-            <input id="name_hos" class="name_hos" type="text" placeholder="Enter your name">
-            <input class="name_hos" type="text" placeholder="Enter your email-id">
-            <input id="pass_hos" type="password" placeholder="Enter Password" value="" required>      
-            <input type="password" placeholder="Re-enter Password" value="" required>      
-            <button onclick="Login()" type="submit" value="Login"><a href="homepage.html">Sign Up</a></button>
+            <br />
+            <br />
+            <div class="namefield">
+                <i class="fas fa-user"></i>
+                <input
+                  id="name"
+                  class="user"
+                  type="text"
+                  placeholder="Enter your name"
+                />
+              </div>
+            <div class="emailfield">
+                <i class="fas fa-at"></i>
+                <input
+                  id="email"
+                  class="email"
+                  type="text"
+                  placeholder="Enter your email-id"
+                />
+              </div>
+              <div class="passfield">
+                <i class="fas fa-lock"></i>
+                <input
+                  id="pass"
+                  type="password"
+                  placeholder="Enter your password"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="passfield">
+                <i class="fas fa-user-lock"></i>
+                <input
+                  id="pass"
+                  type="password"
+                  placeholder="Re-enter your password"
+                  value=""
+                  required
+                />
+              </div>
+              <button onclick="Login()" type="submit" value="Login">
+                <a href="homepage.html">Sign Up</a>
+              </button>
+      
         </form>
+      
     </div>
     <div class="color-btn">Change Color?</div>
 
