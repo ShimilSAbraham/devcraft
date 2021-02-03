@@ -16,3 +16,35 @@ document.querySelector(".color-btn").addEventListener("click", () => {
 });
 
 
+var check = false ;
+document.querySelector(".fa-arrow-circle-right").addEventListener("click", () => {
+  let menu = document.querySelector(".menu");
+  var item=document.querySelectorAll(".item-text");
+  var x;
+  if (check==false)
+  {
+    for(x of item){
+      x.style.display="inline";
+    }
+    menu.style.left = "-5px";
+    menu.style.width = "150px";
+    menu.style.alignItems = "flex-end";
+    menu.style.paddingRight = "20px";
+    document.querySelector(".fa-arrow-circle-right").style.transform = "rotate(180deg) scale(1.6)";
+    check=true;
+  }
+  else
+  {
+    for(x of item){
+      x.style.display="none";
+    }
+    menu.style.left = "-30px";
+    menu.style.width = "100px";
+    menu.style.alignItems = "center";
+    menu.style.paddingRight = "0";
+    document.querySelector(".fa-arrow-circle-right").style.transform = "rotate(0deg) scale(1.6)";
+    check=false;
+  }
+});
+
+

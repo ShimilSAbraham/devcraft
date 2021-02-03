@@ -63,18 +63,46 @@ body {
   background: #181818;
   box-shadow: inset -10px -10px 15px rgba(49, 46, 46, 0.25),
     inset 10px 10px 10px rgba(19, 18, 18, 0.75);
-  border-radius: 75px;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   padding: 1vh 0;
+  transition: 0.5s;
+}
+
+
+
+
+i {
+  color: var(--color);
 }
 
 .menu i {
   margin: 30px 0;
+  margin-left: 5px;
   transform: scale(1.6);
+  padding: 5px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.menu i:hover{
+  color: var(--dark);
+  background: var(--color);
+  transition: 0.5s;
+}
+
+.menu .item .item-text{
+  display: none;
+  color: var(--color);
+  position: relative;
+  left: -10px;
+  transition: 0.5s;
 }
 
 .welcome{
@@ -112,11 +140,6 @@ body {
 }
 
 .search input:active {
-  color: var(--color);
-}
-
-
-i {
   color: var(--color);
 }
 
@@ -171,6 +194,7 @@ i {
   height: 40vh;
   margin: 10%;
   margin-top: 11%;
+  margin-left: 13%;
   justify-content: space-between;
 }
 
@@ -181,6 +205,11 @@ i {
 .container .card .content img{
   transform: translateX(40%);
   filter: invert(81%) sepia(40%) hue-rotate(355deg);
+}
+
+.container .card:hover .content img{
+  filter: invert(15%) sepia(10%);
+
 }
 
 .container .card .face{
@@ -206,6 +235,7 @@ i {
   background: var(--color);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  color: rgb(37, 37, 37);
 }
 
 .container .card .face.face1 .content{
@@ -220,7 +250,9 @@ i {
 
 .container .card .face.face2{
   position: relative;
-  background: #fff;
+  background: rgb(24, 22, 22);
+  color: var(--color);
+  /* background: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
