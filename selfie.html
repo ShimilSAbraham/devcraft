@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="notify.css">
-    <title>Notification!!!</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="selfie.css">
+        <title>Meet Yourself</title>
+<script defer src="selfie.js"></script>
 </head>
 <body>
     <div class="title-box">
@@ -50,27 +51,25 @@
             </a>
         </div>
     </div>
-    <div class="msg">
-        You have no new notifications.
-    </div>
-    <div class=container>
-        <div class="card">
-            <div class = "face face1">
-                <div class="content">
-                    <img src="img/relax.png" width="100px">
-                    <h3>Hover Me !</h3>
-                </div>
-            </div>
-            <div class = "face face2">
-                <div class="content">
-                    <p>Looks like you have finished your works.<br><br>It's time for you to get some rest.</p>
-                </div>
+    <div class="welcome">Welcome, User</div>
+    
+</div>
+<div class=container>
+    <div class="card">
+        <div class = "face face1">
+            <div class="content">
+                <img src="img/webcam.png" width="100px">
+                <h3>Hover to see You!</h3>
             </div>
         </div>
-
+        <div class = "face face2">
+            <video id="video" width="500" height="280" autoplay muted></video>
+            </div>
+        </div>
     </div>
+</div>
     <div class="color-btn">Change Color?</div>
 
-    <script src="notify.js"></script>
+    
 </body>
 </html>

@@ -195,7 +195,7 @@ i {
 
 .container .card{
   position: relative;
-  transform: translateX(50%);
+  transform: translateX(60%);
 
 }
 
@@ -211,7 +211,7 @@ i {
 
 .container .card .face{
   width: 500px;
-  height: 200px;
+  height: 250px;
   transition: 0.5s;
 
 }
@@ -224,7 +224,7 @@ i {
   align-items: center;
   z-index: 1;
   color: #fff;
-  transform: translateY(50px);
+  transform: translateY(100px);
   border-radius: 10px;
   transition: 0.5s;
 }
