@@ -555,6 +555,7 @@ i {
   color: #fff;
   transform: translateY(50px);
   border-radius: 10px;
+  z-index:1;
 }
 
 .container .card:hover .face.face1{
